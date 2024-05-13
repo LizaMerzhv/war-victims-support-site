@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+/* General styles */
+
+body {
+    font-family: "Montserrat";
+    font-size: 1em;
+}
+
+.button-center {
+    margin: auto;  
+}
+
+.button-right {
+    margin-left: 1.3em;   
+}
+
+.block-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 4.06em;
+    line-height: 1.3;
+    color: black;
+    margin-bottom: 0.6em;
+}
+
+.block-sub-title {
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.3;
+    color: black; 
+    margin-bottom: 0.5em;
+}
+
+.block-text {
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1;
+    color:  #73A6B1;
+    margin-bottom: 0.5em;
+}
+
+.text-black{
+    color:black;
+}
+
+.blue-button {
+    text-transform: uppercase;
+    background-color:#7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8rem;
+    display: block;
+    cursor: pointer;  
+}
+
+/* Header styles */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 2.2em 3.94em;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.menu-list {
+    display: flex;
+    align-items:center;
+}
+
+.menu-item {
+    margin-left: 3.1em;
+    color:black;
+}
+
+.menu-item:visited {
+    color:black;
+}
+
+.menu-item a {
+    color:#000000;
+}
+
+/* First screen */
+
+.first-screen {
+    background-image: url('./assets/images/First-screen-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.first-screen-container {
+    width: 30%;
+    margin: 5.8em;
+}
+
+.main-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 4.06em;
+    line-height: 1;
+    color: white;
+}
+
+.main-description {
+    margin:1.1em 0em;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: left;
+
+}
+
+.white-button{
+    background-color:white;
+}
+
+/*Second screen*/
+
+.description-screen{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:8.88em 0;
+}
+
+.description-title{
+    width: 60%;
+    text-align: center;
+    
+}
+
+/*Two block section*/
+
+.block-img {
+    max-width: 40vw;
+    margin-left: 3.4em ;
+    border-radius: 0.27em;
+
+}
+
+.description-block {  
+    background-color: #F1FDFF;
+    width: calc(100% - 3.88em);
+    margin:0 auto 2.7em;
+    padding: 2.2em 3.4em;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+}
+
+.desc-header {
+    font-size: 2.5em;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+/*Support section*/
+
+.support-our-work {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:12.2em 0 8.88em;
+}
+
+.description-support {
+    width: 60%;
+    text-align: center;
+}
+
+.counter {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers span {
+    padding: 0.13em;  
+}
+
+.separator {
+    color: #9AD2DE;
+}
+
+/*Mission block */
+
+.mission-block {
+    position:relative;
+    padding-top:14em;
+}
+
+.mission-img-position {
+    position:absolute;
+    right:0;
+    bottom:0;
+   left:50%;
+   background-image: url('./assets/images/curves.png');
+   background-repeat: no-repeat;
+   background-position: 100% bottom;
+   z-index: 1;
+   background-size: 90%;
+}
+
+.mission-img {
+    position: relative;
+    width: 50%;
+    padding-bottom: 58%;
+    margin-left: 20%;
+}
+
+.miss-img {
+    position:absolute;
+    width:100%;
+    bottom:0;
+    z-index: 2;
+}
+
+.text-mission {
+    padding:2.7em 0;
+}
+
+/*Contact section*/
+
+.contact-section {
+    background-color:#F9FADF;
+    padding-bottom: 8.8em;
+}
+
+.col-half {
+    width:50%;
+    box-sizing: border-box;
+}
+
+.col-width-30 {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.subscription-block {
+    display: flex;
+    background-color: #fff;
+    margin: 0em 3.94em 0em 3.94em;
+    padding: 4.58em 5.16em 4.58em 3.38em;
+    border-radius:0.55em;
+}
+
+.input-yellow {
+    display: block;
+    width:100%;
+    height: 3.6em;
+    border-radius: 1.8em;
+    background-color:#F9FADF;
+    margin-bottom: 1.7em;
+    padding:1.16em 2.38em;
+    box-sizing: border-box;
+}
+
+.contact-col{
+    display: flex;
+    padding: 2.7em 3.94em 2.7em 3.94em;
+}
+
+.contact-name-position {
+    padding-left:7.38em;
+}
+
+.padd-bottom {
+    padding-bottom: 3.16em;
+}
+
+.subscr-img {
+    padding-right: 5.16em;
+}
+
+.subscr-img img {
+    width: 100%;
+    height: auto;
+}
+
+.full-width img {
+    width: 100%;
+    height: auto;
+}
+
+.padd-bottom-subscr {
+    padding-bottom:2.16em ;
+}
+
+.descr-padd {
+    padding-bottom: 8.88em;
+}
